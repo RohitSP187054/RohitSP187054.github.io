@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohit Pawar | Front-End Developer</title>
+    <meta name="description" content="Portfolio of Rohit Pawar, a skilled Front-End Developer specializing in React, JavaScript, and creating user-friendly web interfaces.">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+    <header id="header">
+        <div class="container">
+            <nav>
+                <a href="#home" class="logo">Rohit Pawar</a>
+                <ul class="desktop-nav">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Portfolio</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="nav-right">
+                    <button id="theme-toggle" aria-label="Toggle Dark Mode">
+                        <i class="fas fa-moon"></i>
+                        <i class="fas fa-sun"></i>
+                    </button>
+                    <button id="menu-btn" aria-label="Open Menu"><i class="fas fa-bars"></i></button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div id="mobile-menu">
+        <a href="#home" class="mobile-nav-link">Home</a>
+        <a href="#about" class="mobile-nav-link">About</a>
+        <a href="#skills" class="mobile-nav-link">Skills</a>
+        <a href="#projects" class="mobile-nav-link">Portfolio</a>
+        <a href="#experience" class="mobile-nav-link">Experience</a>
+        <a href="#contact" class="mobile-nav-link">Contact</a>
+    </div>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="aurora"></div>
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Hello, I'm <span class="highlight-text" id="typing-text"></span></h1>
+                    <p class="hero-subtitle">With a B.Tech in Electronics and Computer Engineering, I am a multilingual Front-End Developer with expertise in creating user-friendly interfaces using technologies like React.js, JavaScript, HTML, and CSS.</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/rohit-pawar-290796231" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/RohitSP187054" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://wa.me/919923937808" target="_blank"aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="assets/hero-image.jpeg" alt="Rohit Pawar">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section-padding">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="assets/about-me-image.png" alt="Rohit Pawar at his desk">
+                    </div>
+                    <div class="education-container">
+                        <h3>Education</h3>
+                        <div class="education-card">
+                            <p class="education-date">2022 - Present</p>
+                            <h4>B.TECH in Electronics and Computer</h4>
+                            <p class="institution">Dr. Babasaheb Ambedkar Technological University, Raigad</p>
+                            <p class="gpa">GPA: 70%</p>
+                        </div>
+                        <div class="education-card">
+                            <p class="education-date">2019 - 2022</p>
+                            <h4>DIPLOMA in Information Technology</h4>
+                            <p class="institution">Government Polytechnic Aurangabad, Chh. Sambhaji Nagar</p>
+                            <p class="gpa">GPA: 80%</p>
+                        </div>
+                        <a href="assets/Rohit_Pawar_Resume.pdf" download class="btn">Download Resume <i class="fas fa-download"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section-padding">
+            <div class="container">
+                <h2 class="section-title">My Skills</h2>
+                <div class="new-skills-grid">
+                    <div class="new-skill-card">
+                        <h4>Programming Languages</h4>
+                        <div class="icon-grid">
+                            <div class="icon-item"><i class="fab fa-html5 skill-icon" style="color: #E34F26;"></i><span>HTML</span></div>
+                            <div class="icon-item"><i class="fab fa-css3-alt skill-icon" style="color: #1572B6;"></i><span>CSS</span></div>
+                            <div class="icon-item"><i class="fab fa-js-square skill-icon" style="color: #F7DF1E;"></i><span>JavaScript</span></div>
+                            <div class="icon-item"><i class="fab fa-python skill-icon" style="color: #3776AB;"></i><span>Python</span></div>
+                        </div>
+                    </div>
+                    <div class="new-skill-card">
+                        <h4>Library and Frameworks</h4>
+                        <div class="icon-grid">
+                            <div class="icon-item"><i class="fab fa-react skill-icon" style="color: #61DAFB;"></i><span>React</span></div>
+                            <div class="icon-item"><i class="fab fa-bootstrap skill-icon" style="color: #7952B3;"></i><span>Bootstrap</span></div>
+                            <div class="icon-item"><i class="fas fa-wind skill-icon" style="color: #06B6D4;"></i><span>Tailwind CSS</span></div>
+                        </div>
+                    </div>
+                    <div class="new-skill-card">
+                        <h4>Technologies</h4>
+                        <div class="icon-grid">
+                            <div class="icon-item"><i class="fas fa-code skill-icon" style="color: #007ACC;"></i><span>VS Code</span></div>
+                            <div class="icon-item"><i class="fab fa-git-alt skill-icon" style="color: #F05032;"></i><span>Git</span></div>
+                            <div class="icon-item"><i class="fab fa-github skill-icon" style="color: var(--text-primary);"></i><span>GitHub</span></div>
+                            <div class="icon-item"><i class="fab fa-figma skill-icon" style="color: #F24E1E;"></i><span>Figma</span></div>
+                            <div class="icon-item"><i class="fas fa-pen-ruler skill-icon" style="color: #00C4CC;"></i><span>Canva</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="projects" class="section-padding">
+            <div class="container">
+                <h2 class="section-title">My Portfolio</h2>
+                <p class="section-subtitle">Most recent work</p>
+                <div class="swiper-container">
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><div class="project-card"><div class="card-content"><h3>Online News Portal</h3><p class="project-tech">Tech: HTML, CSS, JavaScript</p><p class="project-desc">Developed the front-end layout and design, ensuring a visually appealing interface. Implemented JavaScript for dynamic content loading without page reloads.</p><span class="click-to-visit">Click to visit</span></div><a href="https://github.com/RohitSP187054/Online-News-Portal" target="_blank" class="card-overlay"><span><i class="fas fa-eye"></i> Visit</span></a></div></div>
+                            <div class="swiper-slide"><div class="project-card"><div class="card-content"><h3>Chatbot for College Enquiry</h3><p class="project-tech">Tech: HTML, CSS, JavaScript</p><p class="project-desc">Designed a responsive chatbot interface. Developed interactive components to handle user queries and display responses dynamically using an efficient dialogue flow.</p><span class="click-to-visit">Click to visit</span></div><a href="https://github.com/RohitSP187054" target="_blank" class="card-overlay"><span><i class="fas fa-eye"></i> Visit</span></a></div></div>
+                            <div class="swiper-slide"><div class="project-card"><div class="card-content"><h3>Portfolio Website</h3><p class="project-tech">Tech: React.js, Tailwind CSS, Hooks</p><p class="project-desc">Developed a responsive portfolio website using React, ensuring optimal performance. Integrated reusable components and custom Tailwind classes for flexibility.</p><span class="click-to-visit">Click to visit</span></div><a href="https://github.com/RohitSP187054" target="_blank" class="card-overlay"><span><i class="fas fa-eye"></i> Visit</span></a></div></div>
+                            <div class="swiper-slide"><div class="project-card"><div class="card-content"><h3>Spotify Clone</h3><p class="project-tech">Tech: HTML, CSS, JavaScript,Tailwind CSS </p><p class="project-desc"> Developed a front end based spotify clone using Tailwind CSS, ensuring optimal performance across devices. Implemented responsive layouts and interactive elements, prioritizing user experience(UX).</p><span class="click-to-visit">Click to visit</span></div><a href="https://github.com/RohitSP187054" target="_blank" class="card-overlay"><span><i class="fas fa-eye"></i> Visit</span></a></div></div>
+                            <div class="swiper-slide"><div class="project-card"><div class="card-content"><h3>Dance Academy Landing Page</h3><p class="project-tech">Tech: HTML, CSS, JavaScript</p><p class="project-desc">This project is built entirely with HTML, CSS, and JavaScript, focusing on advanced front-end techniques to create an engaging and professional user experience.</p><span class="click-to-visit">Click to visit</span></div><a href="https://github.com/RohitSP187054" target="_blank" class="card-overlay"><span><i class="fas fa-eye"></i> Visit</span></a></div></div>
+
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+                 <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <section id="experience" class="section-padding">
+            <div class="container">
+                <h2 class="section-title">My Experience</h2>
+                <p class="section-subtitle">Explore</p>
+                <div class="experience-grid">
+                    <!-- Experience 1 -->
+                    <div class="experience-card">
+                        <h3>Website Developer Intern</h3>
+                        <p class="experience-date">MARCH 2025 – JUNE 2025</p>
+                        <p class="experience-company">BERITRAVE TECHNOLOGIES PVT LTD</p>
+                        <p class="experience-desc">
+                            <i class="fas fa-quote-left"></i>
+                            Developed and designed responsive websites using React.js, HTML, CSS, and JS. Created landing pages with state management and Hooks.
+                        </p>
+                    </div>
+                    <!-- Experience 2 -->
+                    <div class="experience-card">
+                        <h3>Web developer Trainee</h3>
+                        <p class="experience-date">JANUARY 2025 – JUNE 2025</p>
+                        <p class="experience-company">SARALTECH STARTUP SCHOOL</p>
+                        <p class="experience-desc">
+                            <i class="fas fa-quote-left"></i>
+                            Learned multiple new front-end technologies. Gained hands-on experience by participating in various workshops and real-world projects.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section-padding">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's talk about everything!</p>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3>Don't be shy!</h3>
+                        <p class="contact-text">I'd love to hear from you! Whether you have a project in mind, a question, or just want to say hello, drop me a message below. I'll respond quickly to help turn your ideas into reality.</p>
+                        <div class="info-item"><i class="fas fa-envelope"></i><a href="mailto:rohitspawar456789@gmail.com">rohitspawar456789@gmail.com</a></div>
+                        <div class="info-item"><i class="fas fa-phone"></i><span>+91 9923937808</span></div>
+                        <div class="contact-social-icons">
+                            <a href="https://wa.me/919923937808" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                            <a href="https://www.linkedin.com/in/rohit-pawar-290796231" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/RohitSP187054" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <form class="contact-form" action="https://formspree.io/f/mnnvebvo" method="POST">
+                        <input type="text" name="name" placeholder="Your name" required>
+                        <input type="email" name="email" placeholder="Email" required>
+                        <textarea name="message" placeholder="Your message" rows="5" required></textarea>
+                        <button type="submit" class="btn form-btn">Send a Message <i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>© 2025 Rohit Pawar. All rights reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
