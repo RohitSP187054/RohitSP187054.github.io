@@ -207,7 +207,6 @@ html.dark .click-to-visit { color: #34d399; }
 footer { padding: 2rem 0; background: var(--text-dark); color: #e5e7eb; text-align: center; }
 html.dark footer { background: #161b22; }
 
-/* ...existing code... */
 #scroll-to-top {
     position: fixed;
     right: 2rem;
@@ -235,7 +234,6 @@ html.dark footer { background: #161b22; }
 #scroll-to-top.visible {
     display: flex;
 }
-/* ...existing code... */
 
 /* SCROLL FADE-IN ANIMATION */
 .fade-in { opacity: 0; transform: translateY(30px); transition: opacity 0.8s ease-out, transform 0.8s ease-out; }
