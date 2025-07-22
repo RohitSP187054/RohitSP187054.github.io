@@ -207,34 +207,6 @@ html.dark .click-to-visit { color: #34d399; }
 footer { padding: 2rem 0; background: var(--text-dark); color: #e5e7eb; text-align: center; }
 html.dark footer { background: #161b22; }
 
-#scroll-to-top {
-    position: fixed;
-    right: 2rem;
-    bottom: 2.5rem;
-    z-index: 1200;
-    background: var(--accent-gradient);
-    color: #fff;
-    border: none;
-    border-radius: 50%;
-    width: 48px;
-    height: 48px;
-    font-size: 1.5rem;
-    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
-    cursor: pointer;
-    display: none;
-    align-items: center;
-    justify-content: center;
-    transition: background 0.3s, transform 0.3s;
-}
-#scroll-to-top:hover {
-    transform: translateY(-5px) scale(1.08);
-    background: var(--accent2);
-}
-/* Show button when scrolled down */
-#scroll-to-top.visible {
-    display: flex;
-}
-
 /* SCROLL FADE-IN ANIMATION */
 .fade-in { opacity: 0; transform: translateY(30px); transition: opacity 0.8s ease-out, transform 0.8s ease-out; }
 .visible { opacity: 1; transform: translateY(0); }
