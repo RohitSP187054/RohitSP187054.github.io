@@ -55,19 +55,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }, { rootMargin: "-50% 0px -50% 0px" });
     sections.forEach(section => navObserver.observe(section));
-
-    // --- SCROLL TO TOP BUTTON ---
-    const scrollBtn = document.getElementById('scroll-to-top');
-    window.addEventListener('scroll', () => {
-        if (window.scrollY > 300) {
-            scrollBtn.classList.add('visible');
-        } else {
-            scrollBtn.classList.remove('visible');
-        }
-    });
-    scrollBtn.addEventListener('click', () => {
-        document.getElementById('home').scrollIntoView({ behavior: 'smooth' });
-    });
     
     // --- SCROLL FADE-IN ANIMATION ---
     const faders = document.querySelectorAll('.section-padding, .project-card, .skill-card, .timeline-item');
